@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValoTips</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/primer_parte.css">
+
+    <!--ICONO-->
+    <link rel="icon" href="">
+
+</head>
+
+<body>
+    <!--BARRA DE NAVEGACION-->
+    <header>
+        <div class="logo">
+            <!--LOGO IZQUIERDO-->
+            <span>ValoTips</span>
+        </div>
+        <label for="check" class="mostrar-menu" onclick="mostrarmenu()"> &#8801 </label>
+        
+        <nav class="menu">
+            <ul for="check" class="nav-links">
+                <li><label onclick="sacarMenu()"><a href="#seleccionar">Agentes</a> </label></li>
+                <li><label onclick="sacarMenu()"><a href="#comentario-1">Comentarios</a></label></li>
+            </ul>
+            <label class="esconder-menu" onclick="sacarMenu()"> &#215 </label>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner" class="d-flex">
+            <div class="container">
+                <div class="card-banner">
+                    <h1>VALO TIPS</h1>
+                    <h2>Los mejores trucos y consejos de tus Agentes favoritos</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="seleccionar" class="d-grid">
+            <!-- RESOLUCION 1920 x 1080-->
+            <div class="container-1">
+                <h2 class="seleccion-agente">Selecciona un Agente</h2>
+                <div class="agentes-grid-1">
+
+                    <!--ASTRA-->
+                    <div class="agente-item">
+                        <img src="img/astra_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--BREACH-->
+                    <div class="agente-item">
+                        <img src="img/breach_portada.jpeg"  class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--BRIMSTONE-->
+                    <div class="agente-item">
+                        <img src="img/brimstone_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--CHAMBER-->
+                    <div class="agente-item">
+                        <img src="img/chamber_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--CYPHER-->
+                    <div class="agente-item">
+                        <img src="img/cypher_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--fade-->
+                    <div class="agente-item">
+                        <img src="img/fade_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--JET-->
+                    <div class="agente-item">
+                        <img src="img/jet_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--kayo-->
+                    <div class="agente-item kayo">
+                        <img src="img/kayo_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--killjoy-->
+                    <div class="agente-item">
+                        <img src="img/killjoy_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--neon-->
+                    <div class="agente-item">
+                        <img src="img/neon_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="agentes-grid-2">
+
+                    <!--omen-->
+                    <div class="agente-item">
+                        <img src="img/omen_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--phoenix-->
+                    <div class="agente-item">
+                        <img src="img/phoenix_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--raze-->
+                    <div class="agente-item">
+                        <img src="img/raze_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--reyna-->
+                    <div class="agente-item">
+                        <img src="img/reyna_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--sage-->
+                    <div class="agente-item">
+                        <img src="img/sage_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--skye-->
+                    <div class="agente-item">
+                        <img src="img/skye_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--sova-->
+                    <div class="agente-item">
+                        <img src="img/sova_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--viper-->
+                    <div class="agente-item">
+                        <img src="img/viper_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--yoru-->
+                    <div class="agente-item">
+                        <img src="img/yoru_portada.jpeg" class="img-grande personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- RESOLUCION 768 x 1024 y 690 x 812-->
+            <div class="container-2">
+                <h2 class="seleccion-agente">Selecciona un Agente</h2>
+                <div class="agentes-grid-1">
+
+                    <!--ASTRA-->
+                    <div class="agente-item">
+                        <img src="img/astra_portada.jpeg"  class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--BREACH-->
+                    <div class="agente-item">
+                        <img src="img/breach_portada.jpeg" class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--BRIMSTONE-->
+                    <div class="agente-item">
+                        <img src="img/brimstone_portada.jpeg" class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--CHAMBER-->
+                    <div class="agente-item">
+                        <img src="img/chamber_portada.jpeg" class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--CYPHER-->
+                    <div class="agente-item">
+                        <img src="img/cypher_portada.jpeg" class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--fade-->
+                    <div class="agente-item">
+                        <img src="img/fade_portada.jpeg" class="img-mediana personajes">
+                        <div class= "agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--JET-->
+                    <div class="agente-item">
+                        <img src="img/jet_portada.jpeg" class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="agentes-grid-2">
+
+                    <!--kayo-->
+                    <div class="agente-item kayo">
+                        <img src="img/kayo_portada.jpeg"  class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--killjoy-->
+                    <div class="agente-item">
+                        <img src="img/killjoy_portada.jpeg"  class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--neon-->
+                    <div class="agente-item">
+                        <img src="img/neon_portada.jpeg"  class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--omen-->
+                    <div class="agente-item">
+                        <img src="img/omen_portada.jpeg"  class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--phoenix-->
+                    <div class="agente-item">
+                        <img src="img/phoenix_portada.jpeg"  class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--raze-->
+                    <div class="agente-item">
+                        <img src="img/raze_portada.jpeg"  class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--reyna-->
+                    <div class="agente-item">
+                        <img src="img/reyna_portada.jpeg"  class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="agentes-grid-3">
+
+                    <!--sage-->
+                    <div class="agente-item">
+                        <img src="img/sage_portada.jpeg"  class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--skye-->
+                    <div class="agente-item">
+                        <img src="img/skye_portada.jpeg"  class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--sova-->
+                    <div class="agente-item">
+                        <img src="img/sova_portada.jpeg"  class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--viper-->
+                    <div class="agente-item viper">
+                        <img src="img/viper_portada.jpeg"  class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--yoru-->
+                    <div class="agente-item">
+                        <img src="img/yoru_portada.jpeg"  class="img-mediana personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- RESOLUCION 560 x 812 y 375 x 667-->
+            <div class="container-3">
+                <h2 class="seleccion-agente">Selecciona un Agente</h2>
+                <div class="agentes-grid-1">
+
+                    <!--ASTRA-->
+                    <div class="agente-item">
+                        <img src="img/astra_portada.jpeg"  class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--BREACH-->
+                    <div class="agente-item">
+                        <img src="img/breach_portada.jpeg" class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--BRIMSTONE-->
+                    <div class="agente-item">
+                        <img src="img/brimstone_portada.jpeg" class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--CHAMBER-->
+                    <div class="agente-item">
+                        <img src="img/chamber_portada.jpeg" class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--CYPHER-->
+                    <div class="agente-item">
+                        <img src="img/cypher_portada.jpeg" class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="agentes-grid-2">
+
+                    <!--fade-->
+                    <div class="agente-item">
+                        <img src="img/fade_portada.jpeg" class="img-pequeno personajes">
+                        <div class= "agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--JET-->
+                    <div class="agente-item">
+                        <img src="img/jet_portada.jpeg" class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--kayo-->
+                    <div class="agente-item kayo">
+                        <img src="img/kayo_portada.jpeg"  class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--killjoy-->
+                    <div class="agente-item">
+                        <img src="img/killjoy_portada.jpeg"  class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--neon-->
+                    <div class="agente-item">
+                        <img src="img/neon_portada.jpeg"  class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <div class="agentes-grid-3">
+
+                    <!--omen-->
+                    <div class="agente-item">
+                        <img src="img/omen_portada.jpeg"  class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--phoenix-->
+                    <div class="agente-item">
+                        <img src="img/phoenix_portada.jpeg"  class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--raze-->
+                    <div class="agente-item">
+                        <img src="img/raze_portada.jpeg"  class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--reyna-->
+                    <div class="agente-item">
+                        <img src="img/reyna_portada.jpeg"  class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--sage-->
+                    <div class="agente-item">
+                        <img src="img/sage_portada.jpeg"  class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="agentes-grid-4">
+                    <!--skye-->
+                    <div class="agente-item">
+                        <img src="img/skye_portada.jpeg"  class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--sova-->
+                    <div class="agente-item">
+                        <img src="img/sova_portada.jpeg"  class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--viper-->
+                    <div class="agente-item viper">
+                        <img src="img/viper_portada.jpeg"  class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+
+                    <!--yoru-->
+                    <div class="agente-item">
+                        <img src="img/yoru_portada.jpeg"  class="img-pequeno personajes">
+                        <div class="agente-item-detalle">
+                            <p class="agente-item-detalle-nombre"></p>
+                            <p class="agente-item-detalle-tipo"></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="comentario-1" class="d-grid">
+            <div class="comentario-item">
+                <h1>Deja tu comentario aquí</h1>
+                <div class="comentario-item-detalle-form">
+                    <form action="" method="post" id="formulario-comentario" class="form-comentario" name="">
+                        <label for="nombreForm" class="nombre-imput">Nombre:</label>
+                        <input type="text" name="nombreForm" id="nombreForm" class="nombre-imput-completar">
+                        <br>
+                        <label for="comentarioForm"></label>
+                        <textarea name="comentarioForm" id="comentarioForm" placeholder="Comentario"></textarea>
+                        <br>
+                        <input type="submit" onclick="" value="Enviar" class="boton-enviar">
+                    </form>
+                </div>
+                <div></div>
+            </div>
+
+        </section>
+    </main>
+    <!-- <footer>
+        <div class="wrapper" id="wrapper">
+            <div class="wrapper-izquierda comun">
+                <h1>Sobre nosotros</h1>
+                <div class="wrapper-item-1">
+                    <p>Somos una comunidad Gamer que busca blalbalblalblala</p>
+                </div>
+            </div>
+            
+            <div class="wrapper-derecha comun">
+                <h1> Nuestras redes</h1>
+                <div class="wrapper-item-2">
+                    <a href="">Facebook</a>
+                    <a href="">Instagram</a>
+                    <a href="">YouTube</a> 
+                </div>
+            </div>
+            
+        </div> -->
+
+    </footer>
+
+    <script src="./js/primer_parte.js"></script>
+</body>
+
+</html>
