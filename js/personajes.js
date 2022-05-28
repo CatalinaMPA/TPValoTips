@@ -40,7 +40,7 @@ function mostrarmenu(){
     document.querySelector('.menu').style.right = "0%";
 }
 
-
+//MENU DE HABILIDADES
 
 
 

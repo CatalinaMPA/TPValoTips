@@ -5,6 +5,7 @@ let formulario = document.getElementById('formulario-comentario');
 let formularioNombre = document.getElementById('nombreForm');
 let formularioComentario = document.getElementById('comentarioForm');
 
+
 formulario.addEventListener('submit', function (e) {
     e.preventDefault();
     console.log('nombreForm');
@@ -15,15 +16,17 @@ formulario.addEventListener('submit', function (e) {
 
     let regexFormularioNombre = /^[a-zA-Z\_\-]{4,16}$/; // Letras, numeros, guion y guion_bajo
 
-    let entrar = false
+    
 
     if(!regexFormularioNombre.test(formularioNombre.value) || formularioComentario.value == "" || formularioNombre.value == ""){
-        alert(`No se puede enviar comentario`);
-        let entrar = true;
+        document.getElementById("comentario-no-enviado").style.display = "block";
+        document.getElementById("comentario-enviado").style.display = "none";
+        
     }
     else if(regexFormularioNombre.test(formularioNombre.value)){
-        alert(`Se envio correctamente el comentario`);
-        let entrar = true;
+        document.getElementById("comentario-enviado").style.display = "block";
+        document.getElementById("comentario-no-enviado").style.display = "none";
+        
     }
 
 })

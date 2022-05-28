@@ -16,6 +16,8 @@
     <!--ICONO-->
     <link rel="icon" href="">
 
+    <script src="https://kit.fontawesome.com/b0db3d7e3b.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -23,12 +25,14 @@
     <header>
         <div class="logo">
             <!--LOGO IZQUIERDO-->
+            <!-- <button class="button-ppal" type="submit" onclick=""><span>ValoTips </span></button> -->
             <span>ValoTips</span>
         </div>
         <label for="check" class="mostrar-menu" onclick="mostrarmenu()"> &#8801 </label>
         
         <nav class="menu">
             <ul for="check" class="nav-links">
+                <li><label onclick="sacarMenu()"><a href="#informacion-agente">Informacion</a> </label></li>
                 <li><label onclick="sacarMenu()"><a href="#seleccionar">Agentes</a> </label></li>
                 <li><label onclick="sacarMenu()"><a href="#comentario-1">Comentarios</a></label></li>
             </ul>
@@ -42,6 +46,16 @@
                 <div class="card-banner">
                     <h1>VALO TIPS</h1>
                     <h2>Los mejores trucos y consejos de tus Agentes favoritos</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="informacion-agente" class="d-flex">
+            <div class="nuevo-agente">
+                <h1>Ultimo agente revelado:</h1>
+                <div class="informacion-ultimo-agente">
+                    <iframe class="video-agente" src="https://www.youtube.com/embed/UMzKD73cs3c" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
@@ -622,33 +636,37 @@
                         <label for="comentarioForm"></label>
                         <textarea name="comentarioForm" id="comentarioForm" placeholder="Comentario"></textarea>
                         <br>
-                        <input type="submit" onclick="" value="Enviar" class="boton-enviar">
+                        <button class="boton-enviar" style="vertical-align:middle" type="submit" onclick=""><span>Enviar </span></button>
                     </form>
                 </div>
                 <div></div>
             </div>
+            <div >
+                <p class="comentario-enviado" id="comentario-enviado">Se envio tu comentario correctamente!</p>
+                <p class="comentario-no-enviado" id="comentario-no-enviado">No se puede enviar el mensaje. Chequea que todos los campos esten completos.</p>
+            </div>
 
         </section>
     </main>
-    <!-- <footer>
+    <footer>
         <div class="wrapper" id="wrapper">
             <div class="wrapper-izquierda comun">
                 <h1>Sobre nosotros</h1>
                 <div class="wrapper-item-1">
-                    <p>Somos una comunidad Gamer que busca blalbalblalblala</p>
+                    <p>Somos una comunidad Gamer que busca mejorar constantemente</p>
                 </div>
             </div>
             
             <div class="wrapper-derecha comun">
-                <h1> Nuestras redes</h1>
+                <h1> Nuestras redes</h1><br>
                 <div class="wrapper-item-2">
-                    <a href="">Facebook</a>
-                    <a href="">Instagram</a>
-                    <a href="">YouTube</a> 
+                    <a href="https://youtu.be/mbVF-vePtpg" class="redes-1"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://youtu.be/dQw4w9WgXcQ" class="redes-1"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://youtu.be/VbN-YxUFITI" class="redes-1"><i class="fa-brands fa-youtube"></i></a> 
                 </div>
             </div>
             
-        </div> -->
+        </div>
 
     </footer>
 
